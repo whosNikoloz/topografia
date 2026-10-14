@@ -1,26 +1,168 @@
 @import "tailwindcss";
 
+/*
+  Palette: the client's pastel greens, used with restraint.
+  Fix from the audit: #9DC08B is a SURFACE colour, not a text colour.
+  White text on #9DC08B is ~1.9:1 and fails WCAG AA, so the primary button
+  is now deep green with white text (10:1) and the pastel is a fill / rule / tint.
+
+  Radius rule for the whole site: 4px on surfaces and media, full pill on buttons only.
+*/
+@theme {
+  /* Sampled from the Archetype logo: #3d4832 dark olive, #a1ac88 sage. */
+  --color-ink: #3d4832; /* brand dark, primary text, dark sections (9.7:1 on white) */
+  --color-ink-soft: #5f6a53; /* secondary text (5.7:1 on white) */
+  --color-sage: #a1ac88; /* brand sage, fills and rules only, never text on white */
+  --color-sage-deep: #55663f; /* sage darkened for text and icons (6.3:1 on white) */
+  --color-sage-pale: #e9ece1; /* tinted surface */
+  --color-paper: #ffffff;
+  --color-paper-soft: #f6f7f2; /* off-white */
+  --color-line: #e2e6d9; /* hairline */
+
+  --font-sans: var(--font-noto-ge), var(--font-noto-cy), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-surface: 4px;
+
+  --shadow-lift: 0 18px 40px -24px rgba(61, 72, 50, 0.45);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light; /* theme lock: this brand is a light palette by brief */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@utility container-x {
+  width: 100%;
+  max-width: 82rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Display type: tight, confident, never shouty */
+@utility display {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+/* Hairline rule in the brand green, used instead of card borders */
+@utility rule {
+  border-top: 1px solid var(--color-line);
+}
+
+/*
+  Motion: MOTION_INTENSITY 4. Entrance reveals only, transform + opacity,
+  CSS scroll-driven where supported, and fully off under reduced motion.
+*/
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal-in both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+  @supports not (animation-timeline: view()) {
+    .reveal {
+      animation: reveal-load 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+  }
+}
+
+/*
+  Never let content depend on scroll to be readable: the scroll-driven variant
+  starts at 0.5 opacity, not 0, so a non-scrolled render (print, screenshot,
+  odd browser) still shows everything.
+*/
+@keyframes reveal-in {
+  from {
+    opacity: 0.5;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes reveal-load {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Rich text from the admin editor */
+.prose-ge {
+  max-width: 68ch;
+}
+.prose-ge :is(h2, h3) {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+  margin-block: 2em 0.6em;
+}
+.prose-ge h2 {
+  font-size: 1.5rem;
+}
+.prose-ge h3 {
+  font-size: 1.2rem;
+}
+.prose-ge p {
+  margin-block: 1em;
+  line-height: 1.75;
+  color: var(--color-ink-soft);
+}
+.prose-ge ul,
+.prose-ge ol {
+  margin-block: 1em;
+  padding-inline-start: 1.25em;
+  list-style: disc;
+  color: var(--color-ink-soft);
+}
+.prose-ge ol {
+  list-style: decimal;
+}
+.prose-ge li {
+  margin-block: 0.4em;
+  line-height: 1.75;
+}
+.prose-ge li::marker {
+  color: var(--color-sage);
+}
+.prose-ge a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-sage);
+  text-underline-offset: 3px;
+}
+.prose-ge img {
+  border-radius: var(--radius-surface);
+  margin-block: 1.75em;
+}
+.prose-ge b,
+.prose-ge strong {
+  font-weight: 600;
+  color: var(--color-ink);
 }

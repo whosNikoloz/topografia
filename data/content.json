@@ -1,0 +1,785 @@
+{
+  "settings": {
+    "phone1": "+995 598 39 29 39",
+    "phone2": "+995 595 50 56 51",
+    "whatsapp": "995598392939",
+    "messenger": "ArchetypeGN",
+    "facebook": "https://www.facebook.com/ArchetypeGN/",
+    "email": "ltd.archetype@gmail.com",
+    "map_embed": "https://www.google.com/maps?q=41.7151,44.8271&z=12&output=embed",
+    "hero_image": "/uploads/hero-poster.jpg",
+    "address": {
+      "ka": "თბილისი, საქართველო",
+      "en": "Tbilisi, Georgia",
+      "ru": "Тбилиси, Грузия"
+    },
+    "working_hours": {
+      "ka": "ორშაბათი – შაბათი: 10:00 – 19:00",
+      "en": "Monday to Saturday: 10:00 to 19:00",
+      "ru": "Понедельник – суббота: 10:00 – 19:00"
+    },
+    "hero_title": {
+      "ka": "ჩვენი სიზუსტე მყარი საფუძვლის გარანტიაა",
+      "en": "Our precision is the guarantee of a solid foundation",
+      "ru": "Наша точность это гарантия надёжного основания"
+    },
+    "hero_subtitle": {
+      "ka": "არქეტიპი გთავაზობთ სრულ და პროფესიონალურ გეოდეზიურ მომსახურებას თანამედროვე ტექნოლოგიებისა და მაღალი სტანდარტების დაცვით.",
+      "en": "Archetype provides complete, professional surveying services using modern technology and high standards.",
+      "ru": "Archetype предлагает полный комплекс профессиональных геодезических услуг с использованием современных технологий и высоких стандартов."
+    },
+    "about_short": {
+      "ka": "არქეტიპი გთავაზობთ სრულ და პროფესიონალურ გეოდეზიურ მომსახურებას თანამედროვე ტექნოლოგიებისა და მაღალი სტანდარტების დაცვით. ვმუშაობთ თბილისსა და საქართველოს რეგიონებში.",
+      "en": "Archetype provides complete, professional surveying services using modern technology and high standards. We work in Tbilisi and across the regions of Georgia.",
+      "ru": "Archetype предлагает полный комплекс профессиональных геодезических услуг с применением современных технологий и высоких стандартов. Работаем в Тбилиси и регионах Грузии."
+    },
+    "about_body": {
+      "ka": "<h2>ჩვენ შესახებ</h2><p>არქეტიპი გთავაზობთ სრულ და პროფესიონალურ გეოდეზიურ მომსახურებას თანამედროვე ტექნოლოგიებისა და მაღალი სტანდარტების დაცვით. ჩვენი სიზუსტე მყარი საფუძვლის გარანტიაა.</p><h2>რას ვაკეთებთ</h2><p>ტოპოგრაფიული კვლევა ქმნის მყარ საფუძველს დაგეგმარებისთვის, დიზაინისთვისა და მშენებლობისთვის. ჩვენი მომსახურება მოიცავს ტოპოგრაფიული გეგმის შედგენას, საკადასტრო აზომვას, შიდა აზომვას, დაკვალვასა და საინჟინრო გეოდეზიას.</p><h2>რატომ არქეტიპი</h2><ul><li>მაღალი სიზუსტე და სტანდარტებთან სრული შესაბამისობა</li><li>თანამედროვე გეოდეზიური და GIS ტექნოლოგიები</li><li>დოკუმენტაცია GIS, DWG და PDF ფორმატებში</li><li>გამოცდილება ისტორიული და რთული ობიექტების აზომვაში</li><li>პასუხისმგებლობა ყოველ შესრულებულ სამუშაოზე</li></ul><h2>გამოცდილება</h2><p>ჩვენმა გუნდმა განახორციელა პროექტები საქართველოს სხვადასხვა რეგიონში, მათ შორის სვანეთში ისტორიული ნაგებობების დეტალური ტოპოგრაფიული აზომვა და სათხის ეკლესიისა და მიმდებარე ტერიტორიის აზომვა სარეაბილიტაციო სამუშაოებისთვის.</p>",
+      "en": "<h2>About us</h2><p>Archetype provides complete, professional surveying services using modern technology and high standards. Our precision is the guarantee of a solid foundation.</p><h2>What we do</h2><p>A topographic survey is the solid base for planning, design and construction. Our services cover topographic plans, cadastral surveys, as-built interior drawings, stakeout works and engineering geodesy.</p><h2>Why Archetype</h2><ul><li>High accuracy and full compliance with standards</li><li>Modern surveying and GIS technology</li><li>Documentation delivered in GIS, DWG and PDF formats</li><li>Experience surveying historic and difficult sites</li><li>Accountability for every job we deliver</li></ul><h2>Experience</h2><p>Our team has delivered projects across the regions of Georgia, including detailed topographic surveys of historic structures in Svaneti and a survey of Satkhe church and its surroundings for rehabilitation work.</p>",
+      "ru": "<h2>О нас</h2><p>Archetype предлагает полный комплекс профессиональных геодезических услуг с применением современных технологий и высоких стандартов. Наша точность это гарантия надёжного основания.</p><h2>Чем мы занимаемся</h2><p>Топографическая съёмка создаёт надёжную основу для планирования, проектирования и строительства. Наши услуги включают топографический план, кадастровую съёмку, внутренние обмеры, вынос осей в натуру и инженерную геодезию.</p><h2>Почему Archetype</h2><ul><li>Высокая точность и полное соответствие стандартам</li><li>Современные геодезические и ГИС-технологии</li><li>Документация в форматах GIS, DWG и PDF</li><li>Опыт съёмки исторических и сложных объектов</li><li>Ответственность за каждую выполненную работу</li></ul><h2>Опыт</h2><p>Наша команда реализовала проекты в разных регионах Грузии, включая детальную топографическую съёмку исторических сооружений в Сванетии и съёмку церкви Сатхе с прилегающей территорией для реставрационных работ.</p>"
+    },
+    "footer_text": {
+      "ka": "სრული და პროფესიონალური გეოდეზიური მომსახურება. ჩვენი სიზუსტე მყარი საფუძვლის გარანტიაა.",
+      "en": "Complete, professional surveying services. Our precision is the guarantee of a solid foundation.",
+      "ru": "Полный комплекс профессиональных геодезических услуг. Наша точность это гарантия надёжного основания."
+    }
+  },
+  "services": [
+    {
+      "id": "sv-topo",
+      "icon": "map",
+      "title": {
+        "ka": "ტოპოგრაფიული გეგმა",
+        "en": "Topographic plan",
+        "ru": "Топографический план"
+      },
+      "description": {
+        "ka": "ტერიტორიის დეტალური აზომვა: რელიეფი, სიმაღლეები, შენობები, გზები, კომუნიკაციები და ინფრასტრუქტურა ერთ ზუსტ გეგმაზე.",
+        "en": "Detailed survey of the site: terrain, elevations, buildings, roads, utilities and infrastructure on one accurate plan.",
+        "ru": "Детальная съёмка территории: рельеф, высоты, здания, дороги, коммуникации и инфраструктура на одном точном плане."
+      }
+    },
+    {
+      "id": "sv-kad",
+      "icon": "ruler",
+      "title": {
+        "ka": "საკადასტრო აზომვითი ნახაზი",
+        "en": "Cadastral survey plan",
+        "ru": "Кадастровый обмерный чертёж"
+      },
+      "description": {
+        "ka": "ნაკვეთის საზღვრების აზომვა, ფართობის დაზუსტება, გამიჯვნა-გაერთიანება და სერტიფიცირებული ნახაზი რეგისტრაციისთვის.",
+        "en": "Boundary survey, area verification, splitting or merging of plots, and a certified drawing ready for registration.",
+        "ru": "Съёмка границ участка, уточнение площади, раздел и объединение участков, сертифицированный чертёж для регистрации."
+      }
+    },
+    {
+      "id": "sv-eng",
+      "icon": "target",
+      "title": {
+        "ka": "საინჟინრო გეოდეზია",
+        "en": "Engineering geodesy",
+        "ru": "Инженерная геодезия"
+      },
+      "description": {
+        "ka": "გეოდეზიური უზრუნველყოფა სამშენებლო და ინფრასტრუქტურული პროექტებისთვის, პროექტირებიდან შესრულებამდე.",
+        "en": "Geodetic support for construction and infrastructure projects, from design through execution.",
+        "ru": "Геодезическое сопровождение строительных и инфраструктурных проектов, от проектирования до исполнения."
+      }
+    },
+    {
+      "id": "sv-stake",
+      "icon": "path",
+      "title": {
+        "ka": "დაკვალვითი სამუშაოები",
+        "en": "Stakeout works",
+        "ru": "Вынос осей в натуру"
+      },
+      "description": {
+        "ka": "ნაკვეთის საზღვრებისა და საპროექტო წერტილების ზუსტი გატანა ადგილზე, სამშენებლო ღერძებისა და ფუნდამენტის დაკვალვა.",
+        "en": "Precise setting out of plot boundaries and design points on site, including building axes and foundations.",
+        "ru": "Точный вынос границ участка и проектных точек на местность, включая оси здания и фундамент."
+      }
+    },
+    {
+      "id": "sv-interior",
+      "icon": "cube",
+      "title": {
+        "ka": "შიდა აზომვითი ნახაზი",
+        "en": "As-built interior drawing",
+        "ru": "Внутренний обмерный чертёж"
+      },
+      "description": {
+        "ka": "ბინების, სახლებისა და კომერციული ფართების აზომვა, ზუსტი გეგმები და ფართობები GIS, DWG და PDF ფორმატებში.",
+        "en": "Survey of flats, houses and commercial spaces with accurate plans and areas in GIS, DWG and PDF formats.",
+        "ru": "Обмер квартир, домов и коммерческих помещений с точными планами и площадями в форматах GIS, DWG и PDF."
+      }
+    },
+    {
+      "id": "sv-heritage",
+      "icon": "terrain",
+      "title": {
+        "ka": "ისტორიული ობიექტების აზომვა",
+        "en": "Heritage site surveying",
+        "ru": "Съёмка исторических объектов"
+      },
+      "description": {
+        "ka": "ისტორიული ნაგებობებისა და მიმდებარე ტერიტორიის დეტალური აზომვა სარეაბილიტაციო და საპროექტო სამუშაოებისთვის.",
+        "en": "Detailed survey of historic structures and their surroundings for rehabilitation and design work.",
+        "ru": "Детальная съёмка исторических сооружений и прилегающей территории для реставрационных и проектных работ."
+      }
+    }
+  ],
+  "prices": [
+    {
+      "id": "pr-topo",
+      "title": {
+        "ka": "ტოპოგრაფიული გეგმა",
+        "en": "Topographic plan",
+        "ru": "Топографический план"
+      },
+      "price": {
+        "ka": "შეთანხმებით",
+        "en": "On request",
+        "ru": "По запросу"
+      },
+      "note": {
+        "ka": "ფასი დამოკიდებულია ფართობზე, რელიეფსა და მდებარეობაზე",
+        "en": "Depends on area, terrain and location",
+        "ru": "Зависит от площади, рельефа и расположения"
+      }
+    },
+    {
+      "id": "pr-kad",
+      "title": {
+        "ka": "საკადასტრო აზომვითი ნახაზი",
+        "en": "Cadastral survey plan",
+        "ru": "Кадастровый обмерный чертёж"
+      },
+      "price": {
+        "ka": "შეთანხმებით",
+        "en": "On request",
+        "ru": "По запросу"
+      },
+      "note": {
+        "ka": "სრული პაკეტი საჯარო რეესტრში წარსადგენად",
+        "en": "Full package ready for the public registry",
+        "ru": "Полный пакет для подачи в публичный реестр"
+      }
+    },
+    {
+      "id": "pr-eng",
+      "title": {
+        "ka": "საინჟინრო გეოდეზია",
+        "en": "Engineering geodesy",
+        "ru": "Инженерная геодезия"
+      },
+      "price": {
+        "ka": "შეთანხმებით",
+        "en": "On request",
+        "ru": "По запросу"
+      },
+      "note": {
+        "ka": "პროექტის მოცულობისა და ვადების მიხედვით",
+        "en": "Based on project scope and schedule",
+        "ru": "В зависимости от объёма проекта и сроков"
+      }
+    },
+    {
+      "id": "pr-stake",
+      "title": {
+        "ka": "დაკვალვითი სამუშაოები",
+        "en": "Stakeout works",
+        "ru": "Вынос осей в натуру"
+      },
+      "price": {
+        "ka": "შეთანხმებით",
+        "en": "On request",
+        "ru": "По запросу"
+      },
+      "note": {
+        "ka": "ფასი დამოკიდებულია წერტილების რაოდენობაზე",
+        "en": "Depends on the number of points",
+        "ru": "Зависит от количества точек"
+      }
+    },
+    {
+      "id": "pr-interior",
+      "title": {
+        "ka": "შიდა აზომვითი ნახაზი",
+        "en": "As-built interior drawing",
+        "ru": "Внутренний обмерный чертёж"
+      },
+      "price": {
+        "ka": "შეთანხმებით",
+        "en": "On request",
+        "ru": "По запросу"
+      },
+      "note": {
+        "ka": "ფართობისა და ობიექტის სირთულის მიხედვით",
+        "en": "Based on floor area and complexity",
+        "ru": "В зависимости от площади и сложности объекта"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "pj-satkhe",
+      "slug": "satkhis-eklesia",
+      "date": "2025-06-30",
+      "cover": "/uploads/project-satkhe.jpg",
+      "title": {
+        "ka": "სათხის ეკლესიის ტოპოგრაფიული აზომვა",
+        "en": "Topographic survey of Satkhe church",
+        "ru": "Топографическая съёмка церкви Сатхе"
+      },
+      "description": {
+        "ka": "ისტორიისა და თანამედროვე ტექნოლოგიების შეხვედრა. ჩვენმა გუნდმა შეასრულა სათხის ეკლესიისა და მიმდებარე ტერიტორიის დეტალური ტოპოგრაფიული აზომვა. თითოეული წერტილი, თითოეული რელიეფური თავისებურება და არსებული მდგომარეობა მაღალი სიზუსტით აისახა ტოპოგრაფიულ გეგმაზე, რაც შემდგომი საპროექტო და სარეაბილიტაციო სამუშაოებისთვის მნიშვნელოვან საფუძველს წარმოადგენს.",
+        "en": "Where history meets modern technology. Our team carried out a detailed topographic survey of Satkhe church and the surrounding area. Every point, every feature of the terrain and the current condition of the site were recorded with high accuracy on the topographic plan, forming an important basis for the design and rehabilitation work that follows.",
+        "ru": "Встреча истории и современных технологий. Наша команда выполнила детальную топографическую съёмку церкви Сатхе и прилегающей территории. Каждая точка, каждая особенность рельефа и текущее состояние объекта зафиксированы с высокой точностью на топографическом плане, что станет важной основой для дальнейших проектных и реставрационных работ."
+      },
+      "location": {
+        "ka": "სათხე, საქართველო",
+        "en": "Satkhe, Georgia",
+        "ru": "Сатхе, Грузия"
+      },
+      "media": [
+        {
+          "id": "m-satkhe-vid",
+          "kind": "video",
+          "url": "/uploads/satkhe-church.mp4",
+          "title": {
+            "ka": "სამუშაო პროცესი ადგილზე",
+            "en": "The survey process on site",
+            "ru": "Рабочий процесс на объекте"
+          },
+          "category": {
+            "ka": "ვიდეო",
+            "en": "Video",
+            "ru": "Видео"
+          }
+        },
+        {
+          "id": "m-satkhe-2",
+          "kind": "image",
+          "url": "/uploads/project-satkhe.jpg",
+          "title": {
+            "ka": "გუნდი ობიექტზე",
+            "en": "The team on site",
+            "ru": "Команда на объекте"
+          },
+          "category": {
+            "ka": "ტოპოგრაფია",
+            "en": "Topography",
+            "ru": "Топография"
+          }
+        },
+        {
+          "id": "m-satkhe-1",
+          "kind": "image",
+          "url": "/uploads/surveyor-field.jpg",
+          "title": {
+            "ka": "ტაქეომეტრით აზომვა ობიექტზე",
+            "en": "Total station survey on site",
+            "ru": "Съёмка тахеометром на объекте"
+          },
+          "category": {
+            "ka": "ტოპოგრაფია",
+            "en": "Topography",
+            "ru": "Топография"
+          }
+        }
+      ],
+      "seo_title": {
+        "ka": "სათხის ეკლესიის ტოპოგრაფიული აზომვა",
+        "en": "Topographic survey of Satkhe church",
+        "ru": "Топографическая съёмка церкви Сатхе"
+      },
+      "seo_description": {
+        "ka": "სათხის ეკლესიისა და მიმდებარე ტერიტორიის დეტალური ტოპოგრაფიული აზომვა სარეაბილიტაციო სამუშაოებისთვის.",
+        "en": "Detailed topographic survey of Satkhe church and its surroundings, prepared for rehabilitation work.",
+        "ru": "Детальная топографическая съёмка церкви Сатхе и прилегающей территории для реставрационных работ."
+      }
+    },
+    {
+      "id": "pj-svaneti",
+      "slug": "svanetis-istoriuli-nagebobebi",
+      "date": "2025-06-10",
+      "cover": "/uploads/project-svaneti.jpg",
+      "title": {
+        "ka": "სვანეთის ისტორიული ნაგებობების აზომვა",
+        "en": "Survey of historic structures in Svaneti",
+        "ru": "Съёмка исторических сооружений в Сванетии"
+      },
+      "description": {
+        "ka": "წარმოგიდგენთ ჩვენი გუნდის მიერ შესრულებულ ერთ-ერთ მნიშვნელოვან და გამორჩეულ პროექტს, რომლის ფარგლებშიც სვანეთის რეგიონში განხორციელდა ისტორიული ნაგებობების დეტალური ტოპოგრაფიული აზომვები. აღნიშნული სამუშაოები წარმატებით დასრულდა და კიდევ ერთხელ დაადასტურა ჩვენი გუნდის გამოცდილება, პასუხისმგებლობა და მაღალი სიზუსტის გეოდეზიური მომსახურების შესაძლებლობები.",
+        "en": "One of the most significant projects our team has delivered: detailed topographic surveys of historic structures in the Svaneti region. The work was completed successfully and confirmed once again our team's experience, accountability and ability to deliver high-accuracy surveying.",
+        "ru": "Один из самых значимых проектов нашей команды: детальная топографическая съёмка исторических сооружений в регионе Сванетия. Работы успешно завершены и вновь подтвердили опыт команды, ответственность и возможности высокоточных геодезических услуг."
+      },
+      "location": {
+        "ka": "სვანეთი, საქართველო",
+        "en": "Svaneti, Georgia",
+        "ru": "Сванетия, Грузия"
+      },
+      "media": [
+        {
+          "id": "m-svaneti-vid",
+          "kind": "video",
+          "url": "/uploads/svaneti-heritage.mp4",
+          "title": {
+            "ka": "პროექტი ვიდეოში",
+            "en": "The project on video",
+            "ru": "Проект на видео"
+          },
+          "category": {
+            "ka": "ვიდეო",
+            "en": "Video",
+            "ru": "Видео"
+          }
+        },
+        {
+          "id": "m-svaneti-1",
+          "kind": "image",
+          "url": "/uploads/project-svaneti.jpg",
+          "title": {
+            "ka": "სვანური კოშკი და ხეობა",
+            "en": "A Svan tower above the valley",
+            "ru": "Сванская башня над ущельем"
+          },
+          "category": {
+            "ka": "ისტორიული ობიექტები",
+            "en": "Heritage sites",
+            "ru": "Исторические объекты"
+          }
+        }
+      ],
+      "seo_title": {
+        "ka": "სვანეთის ისტორიული ნაგებობების ტოპოგრაფიული აზომვა",
+        "en": "Topographic survey of historic structures in Svaneti",
+        "ru": "Топографическая съёмка исторических сооружений в Сванетии"
+      },
+      "seo_description": {
+        "ka": "ისტორიული ნაგებობების დეტალური ტოპოგრაფიული აზომვები სვანეთის რეგიონში.",
+        "en": "Detailed topographic surveys of historic structures in the Svaneti region of Georgia.",
+        "ru": "Детальная топографическая съёмка исторических сооружений в регионе Сванетия."
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g-services-video",
+      "kind": "video",
+      "url": "/uploads/archetype-services.mp4",
+      "title": {
+        "ka": "არქეტიპის მომსახურება",
+        "en": "Archetype services",
+        "ru": "Услуги Archetype"
+      },
+      "category": {
+        "ka": "ვიდეო",
+        "en": "Video",
+        "ru": "Видео"
+      }
+    },
+    {
+      "id": "g-svaneti",
+      "kind": "image",
+      "url": "/uploads/project-svaneti.jpg",
+      "title": {
+        "ka": "სვანეთი, ისტორიული ნაგებობები",
+        "en": "Svaneti, historic structures",
+        "ru": "Сванетия, исторические сооружения"
+      },
+      "category": {
+        "ka": "ისტორიული ობიექტები",
+        "en": "Heritage sites",
+        "ru": "Исторические объекты"
+      }
+    },
+    {
+      "id": "g-satkhe",
+      "kind": "image",
+      "url": "/uploads/project-satkhe.jpg",
+      "title": {
+        "ka": "სათხის ეკლესია, სამუშაო პროცესი",
+        "en": "Satkhe church, work in progress",
+        "ru": "Церковь Сатхе, рабочий процесс"
+      },
+      "category": {
+        "ka": "ტოპოგრაფია",
+        "en": "Topography",
+        "ru": "Топография"
+      }
+    },
+    {
+      "id": "g-field",
+      "kind": "image",
+      "url": "/uploads/surveyor-field.jpg",
+      "title": {
+        "ka": "აზომვა უმოკლეს დროში",
+        "en": "Surveying with a short turnaround",
+        "ru": "Съёмка в кратчайшие сроки"
+      },
+      "category": {
+        "ka": "ტოპოგრაფია",
+        "en": "Topography",
+        "ru": "Топография"
+      }
+    },
+    {
+      "id": "g-overview",
+      "kind": "image",
+      "url": "/uploads/services-overview.jpg",
+      "title": {
+        "ka": "ჩვენი მომსახურების მიმოხილვა",
+        "en": "Overview of our services",
+        "ru": "Обзор наших услуг"
+      },
+      "category": {
+        "ka": "სერვისები",
+        "en": "Services",
+        "ru": "Услуги"
+      }
+    },
+    {
+      "id": "g-why",
+      "kind": "image",
+      "url": "/uploads/why-topography.jpg",
+      "title": {
+        "ka": "რატომ გჭირდებათ ტოპოგრაფია",
+        "en": "Why you need a topographic survey",
+        "ru": "Зачем нужна топография"
+      },
+      "category": {
+        "ka": "ტოპოგრაფია",
+        "en": "Topography",
+        "ru": "Топография"
+      }
+    },
+    {
+      "id": "g-kad",
+      "kind": "image",
+      "url": "/uploads/cadastral-survey.jpg",
+      "title": {
+        "ka": "სერტიფიცირებული საკადასტრო აზომვა",
+        "en": "Certified cadastral survey",
+        "ru": "Сертифицированная кадастровая съёмка"
+      },
+      "category": {
+        "ka": "კადასტრი",
+        "en": "Cadastre",
+        "ru": "Кадастр"
+      }
+    },
+    {
+      "id": "g-interior",
+      "kind": "image",
+      "url": "/uploads/interior-survey.jpg",
+      "title": {
+        "ka": "სერტიფიცირებული შიდა აზომვა",
+        "en": "Certified interior survey",
+        "ru": "Сертифицированный внутренний обмер"
+      },
+      "category": {
+        "ka": "შიდა აზომვა",
+        "en": "Interior survey",
+        "ru": "Внутренний обмер"
+      }
+    },
+    {
+      "id": "g-stake",
+      "kind": "image",
+      "url": "/uploads/stakeout.jpg",
+      "title": {
+        "ka": "რას მოიცავს დაკვალვა",
+        "en": "What stakeout work covers",
+        "ru": "Что включает вынос в натуру"
+      },
+      "category": {
+        "ka": "დაკვალვა",
+        "en": "Stakeout",
+        "ru": "Вынос в натуру"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "ar-topo",
+      "slug": "ras-moitsavs-topografia",
+      "date": "2025-05-19",
+      "cover": "/uploads/what-is-topography.jpg",
+      "category": {
+        "ka": "ტოპოგრაფია",
+        "en": "Topography",
+        "ru": "Топография"
+      },
+      "title": {
+        "ka": "რას მოიცავს ტოპოგრაფია?",
+        "en": "What does a topographic survey cover?",
+        "ru": "Что включает топография?"
+      },
+      "excerpt": {
+        "ka": "ტოპოგრაფია ტერიტორიის დეტალურ შესწავლასა და ზუსტ აზომვას გულისხმობს. იგი აერთიანებს რელიეფის, სიმაღლეებისა და არსებული ობიექტების აღრიცხვას.",
+        "en": "Topography is the detailed study and accurate measurement of a site. It brings together the terrain, the elevations and every existing object on the ground.",
+        "ru": "Топография это детальное изучение и точный обмер территории. Она объединяет учёт рельефа, высот и существующих объектов."
+      },
+      "body": {
+        "ka": "<p>ტოპოგრაფია ტერიტორიის დეტალურ შესწავლასა და ზუსტ აზომვას გულისხმობს. იგი აერთიანებს რელიეფის, სიმაღლეებისა და არსებული ობიექტების აღრიცხვას.</p><h2>ტოპოგრაფიული კვლევა მოიცავს</h2><ul><li>ტერიტორიის აზომვას</li><li>რელიეფისა და სიმაღლეების განსაზღვრას</li><li>გზების, კომუნიკაციებისა და ინფრასტრუქტურის დატანას</li><li>შენობების, ღობეების, ხეებისა და სხვა ობიექტების დაფიქსირებას</li><li>ტოპოგრაფიული გეგმებისა და რუკების მომზადებას</li></ul><h2>სად არის საჭირო</h2><p>ტოპოგრაფია აუცილებელია მშენებლობის, არქიტექტურის, გზების პროექტირებისა და მიწის დაგეგმარების პროცესში. სწორად დაგეგმილი პროექტი ზუსტი მონაცემებით იწყება.</p>",
+        "en": "<p>Topography is the detailed study and accurate measurement of a site. It brings together the terrain, the elevations and every existing object on the ground.</p><h2>A topographic survey covers</h2><ul><li>Measuring the site</li><li>Determining terrain and elevations</li><li>Mapping roads, utilities and infrastructure</li><li>Recording buildings, fences, trees and other objects</li><li>Preparing topographic plans and maps</li></ul><h2>Where it is needed</h2><p>Topography is essential for construction, architecture, road design and land planning. A well planned project starts with accurate data.</p>",
+        "ru": "<p>Топография это детальное изучение и точный обмер территории. Она объединяет учёт рельефа, высот и существующих объектов.</p><h2>Топографическая съёмка включает</h2><ul><li>Обмер территории</li><li>Определение рельефа и высот</li><li>Нанесение дорог, коммуникаций и инфраструктуры</li><li>Фиксацию зданий, заборов, деревьев и других объектов</li><li>Подготовку топографических планов и карт</li></ul><h2>Где это нужно</h2><p>Топография необходима при строительстве, в архитектуре, при проектировании дорог и планировании земель. Грамотно спланированный проект начинается с точных данных.</p>"
+      },
+      "seo_title": {
+        "ka": "რას მოიცავს ტოპოგრაფია? არქეტიპი",
+        "en": "What does a topographic survey cover? Archetype",
+        "ru": "Что включает топография? Archetype"
+      },
+      "seo_description": {
+        "ka": "ტოპოგრაფიული კვლევა: რელიეფი, სიმაღლეები, კომუნიკაციები და ობიექტები. რა შედის ტოპოგრაფიულ გეგმაში და სად არის საჭირო.",
+        "en": "What a topographic survey includes: terrain, elevations, utilities and objects, and where such a plan is required.",
+        "ru": "Что входит в топографическую съёмку: рельеф, высоты, коммуникации и объекты, и где нужен такой план."
+      }
+    },
+    {
+      "id": "ar-stake",
+      "slug": "ras-moitsavs-dakvalva",
+      "date": "2025-05-20",
+      "cover": "/uploads/stakeout.jpg",
+      "category": {
+        "ka": "დაკვალვა",
+        "en": "Stakeout",
+        "ru": "Вынос в натуру"
+      },
+      "title": {
+        "ka": "რას მოიცავს დაკვალვა?",
+        "en": "What does stakeout work cover?",
+        "ru": "Что включает вынос в натуру?"
+      },
+      "excerpt": {
+        "ka": "დაკვალვა მიწის ნაკვეთის საზღვრებისა და საპროექტო წერტილების ზუსტ ადგილზე გადატანას გულისხმობს. ზუსტი მშენებლობა სწორად შესრულებული დაკვალვით იწყება.",
+        "en": "Stakeout means transferring plot boundaries and design points precisely onto the ground. Accurate construction starts with correct setting out.",
+        "ru": "Вынос в натуру это точный перенос границ участка и проектных точек на местность. Точное строительство начинается с правильного выноса."
+      },
+      "body": {
+        "ka": "<p>დაკვალვა მიწის ნაკვეთის საზღვრებისა და საპროექტო წერტილების ზუსტ ადგილზე გადატანას გულისხმობს. ის აუცილებელია მშენებლობის სწორად დასაწყებად, პროექტის ზუსტად განსახორციელებლად, საზღვრების დასაზუსტებლად და მეზობლებთან გაუგებრობების თავიდან ასაცილებლად.</p><h2>დაკვალვის პროცესი მოიცავს</h2><ul><li>ნაკვეთის საზღვრების დადგენასა და მონიშვნას</li><li>მეზობელ ნაკვეთებთან საზღვრების დაზუსტებას</li><li>წერტილების ზუსტ დაფიქსირებას</li><li>სამშენებლო ღერძებისა და ფუნდამენტის დაკვალვას</li><li>პროექტის ადგილზე გადატანას</li><li>კოორდინატებისა და მდებარეობის გადამოწმებას</li></ul><p>ზუსტი მშენებლობა სწორად შესრულებული დაკვალვით იწყება.</p>",
+        "en": "<p>Stakeout means transferring plot boundaries and design points precisely onto the ground. It is essential for starting construction correctly, carrying out the design exactly, clarifying boundaries and avoiding disputes with neighbours.</p><h2>The stakeout process covers</h2><ul><li>Establishing and marking plot boundaries</li><li>Clarifying boundaries with adjacent plots</li><li>Fixing points precisely</li><li>Setting out building axes and foundations</li><li>Transferring the design onto the site</li><li>Verifying coordinates and position</li></ul><p>Accurate construction starts with correct setting out.</p>",
+        "ru": "<p>Вынос в натуру это точный перенос границ участка и проектных точек на местность. Он необходим, чтобы правильно начать строительство, точно реализовать проект, уточнить границы и избежать споров с соседями.</p><h2>Процесс выноса включает</h2><ul><li>Определение и обозначение границ участка</li><li>Уточнение границ со смежными участками</li><li>Точную фиксацию точек</li><li>Вынос строительных осей и фундамента</li><li>Перенос проекта на местность</li><li>Проверку координат и положения</li></ul><p>Точное строительство начинается с правильного выноса.</p>"
+      },
+      "seo_title": {
+        "ka": "რას მოიცავს დაკვალვა? საზღვრების დადგენა",
+        "en": "What does stakeout work cover? Setting out boundaries",
+        "ru": "Что включает вынос в натуру? Определение границ"
+      },
+      "seo_description": {
+        "ka": "დაკვალვა: ნაკვეთის საზღვრების დადგენა, სამშენებლო ღერძების გატანა და პროექტის ადგილზე გადატანა.",
+        "en": "Stakeout: establishing plot boundaries, setting out building axes and transferring the design onto the site.",
+        "ru": "Вынос в натуру: определение границ участка, вынос строительных осей и перенос проекта на местность."
+      }
+    },
+    {
+      "id": "ar-kad",
+      "slug": "sakadastro-nakhazi",
+      "date": "2025-05-28",
+      "cover": "/uploads/cadastral-survey.jpg",
+      "category": {
+        "ka": "კადასტრი",
+        "en": "Cadastre",
+        "ru": "Кадастр"
+      },
+      "title": {
+        "ka": "საკადასტრო ნახაზი: რა არის და როდის სჭირდებათ",
+        "en": "The cadastral drawing: what it is and when you need it",
+        "ru": "Кадастровый чертёж: что это и когда он нужен"
+      },
+      "excerpt": {
+        "ka": "საკადასტრო ნახაზი მიწის ნაკვეთის საზღვრების, ზომებისა და მდებარეობის ზუსტ დაფიქსირებას გულისხმობს. ზუსტი მონაცემები თავიდან აგარიდებთ მომავალ პრობლემებს.",
+        "en": "A cadastral drawing records the boundaries, dimensions and position of a plot precisely. Accurate data saves you from future problems.",
+        "ru": "Кадастровый чертёж точно фиксирует границы, размеры и расположение участка. Точные данные избавят вас от будущих проблем."
+      },
+      "body": {
+        "ka": "<p>საკადასტრო ნახაზი მიწის ნაკვეთის საზღვრების, ზომებისა და მდებარეობის ზუსტ დაფიქსირებას გულისხმობს.</p><h2>საკადასტრო მომსახურება მოიცავს</h2><ul><li>ნაკვეთის საზღვრების აზომვას</li><li>ფართობის დაზუსტებას</li><li>ნაკვეთების გამიჯვნასა და გაერთიანებას</li><li>ნაკვეთის დარეგისტრირებას</li><li>სერტიფიცირებული საკადასტრო ნახაზის მომზადებას</li><li>წერტილებისა და კოორდინატების განსაზღვრას</li><li>მონაცემების დამუშავებას თანამედროვე GIS და გეოდეზიური ტექნოლოგიებით</li></ul><h2>როდის არის საჭირო</h2><p>საკადასტრო ნახაზი აუცილებელია მიწის რეგისტრაციის, საზღვრების დაზუსტებისა და სხვადასხვა იურიდიული თუ სამშენებლო პროცედურებისთვის. ზუსტი მონაცემები თავიდან აგარიდებთ მომავალ პრობლემებს.</p>",
+        "en": "<p>A cadastral drawing records the boundaries, dimensions and position of a land plot precisely.</p><h2>Cadastral services cover</h2><ul><li>Surveying plot boundaries</li><li>Verifying the area</li><li>Splitting and merging plots</li><li>Registering the plot</li><li>Preparing a certified cadastral drawing</li><li>Determining points and coordinates</li><li>Processing data with modern GIS and surveying technology</li></ul><h2>When it is required</h2><p>A cadastral drawing is required for land registration, boundary clarification and various legal or construction procedures. Accurate data saves you from future problems.</p>",
+        "ru": "<p>Кадастровый чертёж точно фиксирует границы, размеры и расположение земельного участка.</p><h2>Кадастровые услуги включают</h2><ul><li>Съёмку границ участка</li><li>Уточнение площади</li><li>Раздел и объединение участков</li><li>Регистрацию участка</li><li>Подготовку сертифицированного кадастрового чертежа</li><li>Определение точек и координат</li><li>Обработку данных современными ГИС и геодезическими технологиями</li></ul><h2>Когда он нужен</h2><p>Кадастровый чертёж необходим для регистрации земли, уточнения границ и различных юридических или строительных процедур. Точные данные избавят вас от будущих проблем.</p>"
+      },
+      "seo_title": {
+        "ka": "საკადასტრო ნახაზი და აზომვა, არქეტიპი",
+        "en": "Cadastral drawing and survey, Archetype",
+        "ru": "Кадастровый чертёж и съёмка, Archetype"
+      },
+      "seo_description": {
+        "ka": "საკადასტრო ნახაზი: საზღვრების აზომვა, ფართობის დაზუსტება, გამიჯვნა-გაერთიანება და რეგისტრაცია.",
+        "en": "Cadastral drawing: boundary survey, area verification, splitting and merging of plots, and registration.",
+        "ru": "Кадастровый чертёж: съёмка границ, уточнение площади, раздел и объединение участков, регистрация."
+      }
+    },
+    {
+      "id": "ar-interior",
+      "slug": "shida-azomviti-nakhazi",
+      "date": "2025-05-27",
+      "cover": "/uploads/interior-survey.jpg",
+      "category": {
+        "ka": "შიდა აზომვა",
+        "en": "Interior survey",
+        "ru": "Внутренний обмер"
+      },
+      "title": {
+        "ka": "შიდა აზომვითი ნახაზი: როდის და რატომ",
+        "en": "As-built interior drawings: when and why",
+        "ru": "Внутренний обмерный чертёж: когда и зачем"
+      },
+      "excerpt": {
+        "ka": "შიდა აზომვითი ნახაზი შენობის შიდა სივრცეების ზუსტ აზომვასა და გეგმების მომზადებას გულისხმობს. აუცილებელია ექსპლუატაციაში მიღებისთვის, დიზაინისა და რემონტისთვის.",
+        "en": "An as-built interior drawing is the precise measurement of a building's internal spaces and the plans that follow. It is required for occupancy, design and renovation.",
+        "ru": "Внутренний обмерный чертёж это точный обмер внутренних помещений здания и подготовка планов. Необходим для ввода в эксплуатацию, дизайна и ремонта."
+      },
+      "body": {
+        "ka": "<p>შიდა აზომვითი ნახაზი შენობის შიდა სივრცეების ზუსტ აზომვასა და გეგმების მომზადებას გულისხმობს.</p><h2>მომსახურება მოიცავს</h2><ul><li>ბინების, სახლებისა და კომერციული ფართების აზომვას</li><li>ოთახებისა და სივრცეების ზუსტ გეგმებს</li><li>ფართობების განსაზღვრას</li><li>კარ-ფანჯრებისა და შიდა ელემენტების დაფიქსირებას</li><li>GIS, DWG და PDF ფორმატების მომზადებას</li></ul><h2>როდის არის საჭირო</h2><p>შიდა აზომვითი ნახაზი აუცილებელია შენობის ექსპლუატაციაში მისაღებად, დიზაინის, რემონტის, პროექტირებისა და ფართების დაზუსტებისთვის. ჩვენ უზრუნველვყოფთ მაღალ სიზუსტეს, სტანდარტებთან შესაბამისობას და ტექნიკურ სანდოობას.</p>",
+        "en": "<p>An as-built interior drawing is the precise measurement of a building's internal spaces and the preparation of plans from it.</p><h2>The service covers</h2><ul><li>Surveying flats, houses and commercial spaces</li><li>Accurate plans of rooms and spaces</li><li>Determining floor areas</li><li>Recording doors, windows and internal elements</li><li>Delivery in GIS, DWG and PDF formats</li></ul><h2>When it is required</h2><p>An as-built interior drawing is needed to put a building into use, and for design, renovation, planning and area verification. We guarantee high accuracy, compliance with standards and technical reliability.</p>",
+        "ru": "<p>Внутренний обмерный чертёж это точный обмер внутренних помещений здания и подготовка планов на его основе.</p><h2>Услуга включает</h2><ul><li>Обмер квартир, домов и коммерческих помещений</li><li>Точные планы комнат и пространств</li><li>Определение площадей</li><li>Фиксацию дверей, окон и внутренних элементов</li><li>Подготовку в форматах GIS, DWG и PDF</li></ul><h2>Когда это нужно</h2><p>Внутренний обмерный чертёж необходим для ввода здания в эксплуатацию, а также для дизайна, ремонта, проектирования и уточнения площадей. Мы обеспечиваем высокую точность, соответствие стандартам и техническую надёжность.</p>"
+      },
+      "seo_title": {
+        "ka": "შიდა აზომვითი ნახაზი, DWG და GIS, არქეტიპი",
+        "en": "As-built interior drawing, DWG and GIS, Archetype",
+        "ru": "Внутренний обмерный чертёж, DWG и GIS, Archetype"
+      },
+      "seo_description": {
+        "ka": "ბინების, სახლებისა და კომერციული ფართების შიდა აზომვა, ზუსტი გეგმები GIS, DWG და PDF ფორმატებში.",
+        "en": "Interior surveys of flats, houses and commercial spaces with accurate plans in GIS, DWG and PDF formats.",
+        "ru": "Внутренний обмер квартир, домов и коммерческих помещений с точными планами в форматах GIS, DWG и PDF."
+      }
+    },
+    {
+      "id": "ar-why",
+      "slug": "ratom-gchirdebat-topografiuli-gegma",
+      "date": "2025-06-05",
+      "cover": "/uploads/why-topography.jpg",
+      "category": {
+        "ka": "ტოპოგრაფია",
+        "en": "Topography",
+        "ru": "Топография"
+      },
+      "title": {
+        "ka": "რატომ გჭირდებათ ტოპოგრაფიული გეგმა",
+        "en": "Why you need a topographic plan",
+        "ru": "Зачем нужен топографический план"
+      },
+      "excerpt": {
+        "ka": "ნებისმიერი სამშენებლო, საინჟინრო თუ ინფრასტრუქტურული პროექტის სწორად დაგეგმვა ზუსტი ტოპოგრაფიული მონაცემებით იწყება.",
+        "en": "Every successful construction, engineering or infrastructure project starts with accurate topographic data.",
+        "ru": "Любой строительный, инженерный или инфраструктурный проект начинается с точных топографических данных."
+      },
+      "body": {
+        "ka": "<p>ნებისმიერი სამშენებლო, საინჟინრო თუ ინფრასტრუქტურული პროექტის სწორად დაგეგმვა ზუსტი ტოპოგრაფიული მონაცემებით იწყება. ტოპოგრაფიული გეგმა გეხმარებათ მნიშვნელოვანი გადაწყვეტილებების მიღებაში.</p><h2>ტოპოგრაფიული გეგმა საჭიროა</h2><ul><li>მშენებლობისა და პროექტირებისთვის</li><li>მერიისა და სხვადასხვა უწყების დოკუმენტაციის მოსამზადებლად</li><li>ტენდერებსა და ინფრასტრუქტურულ პროექტებში მონაწილეობისთვის</li><li>მიწის სამუშაოებისა და მოცულობების დასათვლელად</li><li>ტერიტორიის ზუსტი მონაცემების მისაღებად და შეცდომების თავიდან ასაცილებლად</li></ul><p>ზუსტი ტოპოგრაფია ნიშნავს დაზოგილ დროს, ოპტიმიზებულ ხარჯებს და წარმატებით განხორციელებულ პროექტს.</p>",
+        "en": "<p>Every successful construction, engineering or infrastructure project starts with accurate topographic data. A topographic survey provides precise information about the terrain and helps you make informed decisions for planning and implementation.</p><h2>A topographic plan is needed for</h2><ul><li>Construction and design projects</li><li>Municipal and governmental documentation</li><li>Tenders and infrastructure projects</li><li>Earthwork calculations and volume estimations</li><li>Accurate site data and error prevention</li></ul><p>Accurate topography saves time, optimizes costs and ensures successful project execution.</p>",
+        "ru": "<p>Любой строительный, инженерный или инфраструктурный проект начинается с точных топографических данных. Топографический план помогает принимать обоснованные решения при планировании и реализации.</p><h2>Топографический план нужен для</h2><ul><li>Строительства и проектирования</li><li>Подготовки документации для мэрии и различных ведомств</li><li>Участия в тендерах и инфраструктурных проектах</li><li>Расчёта земляных работ и объёмов</li><li>Получения точных данных о территории и предотвращения ошибок</li></ul><p>Точная топография означает сэкономленное время, оптимизированные затраты и успешно реализованный проект.</p>"
+      },
+      "seo_title": {
+        "ka": "რატომ გჭირდებათ ტოპოგრაფიული გეგმა, არქეტიპი",
+        "en": "Why you need a topographic plan, Archetype",
+        "ru": "Зачем нужен топографический план, Archetype"
+      },
+      "seo_description": {
+        "ka": "ტოპოგრაფიული გეგმა მშენებლობისთვის, ტენდერებისთვის, მოცულობების დათვლისა და უწყებრივი დოკუმენტაციისთვის.",
+        "en": "A topographic plan for construction, tenders, volume calculations and official documentation.",
+        "ru": "Топографический план для строительства, тендеров, расчёта объёмов и официальной документации."
+      }
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": {
+        "ka": "არქეტიპი, ტოპოგრაფია და გეოდეზია თბილისში",
+        "en": "Archetype, surveying and geodesy in Tbilisi",
+        "ru": "Archetype, топография и геодезия в Тбилиси"
+      },
+      "description": {
+        "ka": "ტოპოგრაფიული გეგმა, საკადასტრო ნახაზი, შიდა აზომვა, დაკვალვა და საინჟინრო გეოდეზია თბილისსა და საქართველოს რეგიონებში.",
+        "en": "Topographic plans, cadastral drawings, interior surveys, stakeout works and engineering geodesy in Tbilisi and across Georgia.",
+        "ru": "Топографический план, кадастровый чертёж, внутренние обмеры, вынос в натуру и инженерная геодезия в Тбилиси и регионах Грузии."
+      }
+    },
+    "about": {
+      "title": {
+        "ka": "ჩვენ შესახებ",
+        "en": "About us",
+        "ru": "О нас"
+      },
+      "description": {
+        "ka": "არქეტიპი: სრული და პროფესიონალური გეოდეზიური მომსახურება თანამედროვე ტექნოლოგიებით და მაღალი სტანდარტებით.",
+        "en": "Archetype: complete, professional surveying services with modern technology and high standards.",
+        "ru": "Archetype: полный комплекс профессиональных геодезических услуг с современными технологиями и высокими стандартами."
+      }
+    },
+    "services": {
+      "title": {
+        "ka": "სერვისები",
+        "en": "Services",
+        "ru": "Услуги"
+      },
+      "description": {
+        "ka": "ტოპოგრაფიული გეგმა, საკადასტრო აზომვითი ნახაზი, საინჟინრო გეოდეზია, დაკვალვა და შიდა აზომვითი ნახაზი.",
+        "en": "Topographic plans, cadastral survey plans, engineering geodesy, stakeout works and as-built interior drawings.",
+        "ru": "Топографический план, кадастровый обмерный чертёж, инженерная геодезия, вынос в натуру и внутренние обмеры."
+      }
+    },
+    "prices": {
+      "title": {
+        "ka": "ფასები",
+        "en": "Prices",
+        "ru": "Цены"
+      },
+      "description": {
+        "ka": "გეოდეზიური სამუშაოების ფასები. ფასს განვსაზღვრავთ პროექტის მოცულობისა და მდებარეობის მიხედვით.",
+        "en": "Pricing for surveying work. We quote based on the scope and location of each project.",
+        "ru": "Цены на геодезические работы. Стоимость определяется объёмом и расположением проекта."
+      }
+    },
+    "projects": {
+      "title": {
+        "ka": "პროექტები",
+        "en": "Projects",
+        "ru": "Проекты"
+      },
+      "description": {
+        "ka": "ჩვენი შესრულებული პროექტები, მათ შორის სვანეთისა და სათხის ისტორიული ობიექტების ტოპოგრაფიული აზომვები.",
+        "en": "Projects we have delivered, including topographic surveys of historic sites in Svaneti and Satkhe.",
+        "ru": "Выполненные нами проекты, включая топографическую съёмку исторических объектов в Сванетии и Сатхе."
+      }
+    },
+    "gallery": {
+      "title": {
+        "ka": "გალერეა",
+        "en": "Gallery",
+        "ru": "Галерея"
+      },
+      "description": {
+        "ka": "ფოტოები და ვიდეოები ჩვენი გეოდეზიური სამუშაოებიდან.",
+        "en": "Photos and videos from our surveying work.",
+        "ru": "Фотографии и видео с наших геодезических работ."
+      }
+    },
+    "articles": {
+      "title": {
+        "ka": "სტატიები",
+        "en": "Articles",
+        "ru": "Статьи"
+      },
+      "description": {
+        "ka": "სასარგებლო სტატიები ტოპოგრაფიაზე, კადასტრზე, დაკვალვასა და შიდა აზომვაზე, მარტივ ენაზე.",
+        "en": "Useful articles about topography, cadastre, stakeout and interior surveys, in plain language.",
+        "ru": "Полезные статьи о топографии, кадастре, выносе в натуру и внутренних обмерах, простым языком."
+      }
+    },
+    "contact": {
+      "title": {
+        "ka": "კონტაქტი",
+        "en": "Contact",
+        "ru": "Контакты"
+      },
+      "description": {
+        "ka": "დაგვიკავშირდით: 598 39 29 39 / 595 50 56 51, ltd.archetype@gmail.com, თბილისი.",
+        "en": "Get in touch: 598 39 29 39 / 595 50 56 51, ltd.archetype@gmail.com, Tbilisi.",
+        "ru": "Свяжитесь с нами: 598 39 29 39 / 595 50 56 51, ltd.archetype@gmail.com, Тбилиси."
+      }
+    }
+  }
+}

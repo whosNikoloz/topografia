@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ტოპოგრაფიის კომპანიის საიტი
 
-## Getting Started
+Next.js + Tailwind, სამ ენაზე: **ქართული, English, Русский**.
+**ბაზა არ არის საჭირო**: მთელი კონტენტი ინახება ერთ ფაილში `data/content.json`,
+ფოტო-ვიდეო კი საქაღალდეში `public/uploads/`.
 
-First, run the development server:
+## გაშვება
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+პროდაქშენი:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- საიტი: `/ka`, `/en`, `/ru` (მისამართი `/` გადაგიყვანთ ქართულზე)
+- ადმინ პანელი: `/admin`
 
-## Learn More
+## პაროლი
 
-To learn more about Next.js, take a look at the following resources:
+`.env.local` ფაილში:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+ADMIN_PASSWORD=admin1234                 # ← შეცვალეთ!
+ADMIN_SECRET=გრძელი-შემთხვევითი-ტექსტი   # ← შეცვალეთ!
+NEXT_PUBLIC_SITE_URL=https://yoursite.ge
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+რეგისტრაცია საიტზე არ არსებობს, მხოლოდ ერთი ადმინი, ერთი პაროლით.
 
-## Deploy on Vercel
+## ენები
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ადმინ პანელის ყოველ გვერდზე ზემოთ არის ღილაკები **ქართული / English / Русский**.
+აირჩევთ ენას, შეავსებთ ტექსტებს, შეინახავთ. სხვა ენის ტექსტი არ იშლება.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+საერთოა სამივე ენისთვის (ერთხელ ივსება): ტელეფონები, WhatsApp, Messenger, Facebook,
+ელ. ფოსტა, რუკა, ფოტოები, ვიდეოები, თარიღები, ხატულები და მისამართი საიტზე (slug).
+
+ინტერფეისის სიტყვები (მენიუ, ღილაკები) თარგმნილია კოდში: `src/lib/i18n.ts`.
+
+## ლოგო და ფერები
+
+- **ლოგო:** შეცვალეთ ფაილი `public/logo.svg`
+  (ან ჩაწერეთ `logo.png` და შეასწორეთ `src="/logo.svg"` ფაილებში
+  `src/components/Header.tsx`, `Footer.tsx` და `src/app/[locale]/page.tsx`).
+- **ფერები:** `src/app/globals.css`, ბლოკი `@theme`, 4 მნიშვნელობა:
+  `--color-mint-100` (ღია ფონი), `--color-mint-400` (ღილაკები),
+  `--color-mint-500` (აქცენტი), `--color-forest` (ტექსტი და ფუტერი).
+  ლოგოს მიღების შემდეგ მხოლოდ ეს ციფრები უნდა შეიცვალოს.
+
+## რა იმართება ადმინ პანელიდან
+
+| გვერდი | რა იცვლება |
+|---|---|
+| საიტის პარამეტრები | ტელეფონები, WhatsApp, Messenger, Facebook, ელ.ფოსტა, მისამართი, სამუშაო საათები, რუკა, მთავარი გვერდის სათაური და ფოტო, „ჩვენ შესახებ“ ტექსტი, ფუტერი |
+| სერვისები | დამატება, რედაქტირება, წაშლა, ხატულის არჩევა |
+| ფასები | დასახელება, ფასი, შენიშვნა |
+| პროექტები | ტექსტი, მდებარეობა, თარიღი, ქავერი, ფოტოები, ატვირთული ვიდეოები და YouTube/Facebook ბმულები |
+| გალერეა | ფოტო/ვიდეო და კატეგორია (ფილტრისთვის) |
+| სტატიები | რედაქტორი (მსხვილი, სათაურები, სიები, ბმული, ფოტოს ჩასმა), კატეგორია, თარიღი |
+| SEO | ყველა გვერდის სათაური და აღწერა Google-ისთვის, თითოეულ ენაზე |
+
+ფოტოები ატვირთვამდე **ავტომატურად იკუმშება** ბრაუზერში (მაქს. 1800px, WebP).
+წაშლამდე ყოველთვის ჩნდება დადასტურების კითხვა.
+
+## გამოქვეყნება (მნიშვნელოვანი)
+
+ადმინი წერს ფაილებს დისკზე, ამიტომ საჭიროა **მუდმივი დისკის მქონე ჰოსტინგი**:
+
+- VPS (Hetzner, DigitalOcean): `npm run build && npm run start`
+- Railway / Render: დაამატეთ Volume და მიამაგრეთ `/app/data` და `/app/public/uploads`
+- Coolify / Dokku / ნებისმიერი Docker ჰოსტი
+
+> **Vercel-ზე ადმინის შენახვა არ იმუშავებს**, იქ ფაილური სისტემა მხოლოდ წასაკითხია.
+> თუ Vercel აუცილებელია, კონტენტი უნდა გადავიტანოთ ბაზაში და ფაილები S3-ზე.
+
+## სარეზერვო ასლი
+
+დააკოპირეთ ორი რამ: `data/content.json` და საქაღალდე `public/uploads/`.
+ეს არის მთელი საიტის შიგთავსი.
