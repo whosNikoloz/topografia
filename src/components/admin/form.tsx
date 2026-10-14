@@ -63,16 +63,18 @@ export function Area({
 export function SaveBar({ children, note }: { children?: ReactNode; note?: string }) {
   const { pending } = useFormStatus();
   return (
-    <div className="sticky bottom-0 -mx-1 flex flex-wrap items-center gap-3 border-t border-line bg-white/95 px-1 py-4 backdrop-blur">
+    <div className="flex flex-col gap-4 rounded-surface border border-line bg-white p-4 shadow-lift sm:flex-row sm:items-center sm:justify-between sm:p-5">
+      {note && <span className="text-sm leading-relaxed text-ink-soft">{note}</span>}
+      <div className="flex flex-col-reverse gap-3 sm:flex-row sm:items-center">
+        {children}
       <button
         type="submit"
         disabled={pending}
-        className="rounded-full bg-ink px-8 py-3.5 text-base font-semibold text-white shadow-lift hover:bg-ink/90 disabled:opacity-60"
+          className="min-h-12 rounded-full bg-ink px-8 py-3 text-base font-semibold text-white transition-colors hover:bg-ink/90 disabled:cursor-not-allowed disabled:opacity-60 sm:min-w-40"
       >
         {pending ? "ინახება…" : "შენახვა"}
       </button>
-      {children}
-      {note && <span className="text-sm text-ink-soft">{note}</span>}
+      </div>
     </div>
   );
 }

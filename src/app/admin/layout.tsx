@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { loginAction, logoutAction } from "@/app/admin/actions";
+import { loginAction } from "@/app/admin/actions";
+import AdminShell from "@/components/admin/AdminShell";
 import { isLoggedIn } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
@@ -9,17 +10,6 @@ export const metadata: Metadata = {
   title: "ადმინ პანელი",
   robots: { index: false, follow: false },
 };
-
-const MENU = [
-  { href: "/admin", label: "მთავარი" },
-  { href: "/admin/settings", label: "საიტის პარამეტრები" },
-  { href: "/admin/services", label: "სერვისები" },
-  { href: "/admin/prices", label: "ფასები" },
-  { href: "/admin/projects", label: "პროექტები" },
-  { href: "/admin/gallery", label: "გალერეა" },
-  { href: "/admin/articles", label: "სტატიები" },
-  { href: "/admin/seo", label: "SEO (Google-ისთვის)" },
-];
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   if (!(await isLoggedIn())) {
@@ -58,44 +48,5 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     );
   }
 
-  return (
-    <div className="min-h-screen bg-paper-soft lg:flex">
-      <aside className="border-b border-line bg-white lg:w-72 lg:shrink-0 lg:border-r lg:border-b-0">
-        <div className="flex items-center justify-between gap-4 p-5">
-          <Link href="/admin">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="ლოგო" width={189} height={60} className="h-10 w-auto" />
-          </Link>
-          <form action={logoutAction}>
-            <button type="submit" className="rounded-full bg-paper-soft px-4 py-2 text-sm font-medium text-ink hover:bg-sage-pale">
-              გასვლა
-            </button>
-          </form>
-        </div>
-
-        <nav className="flex gap-2 overflow-x-auto px-3 pb-4 lg:grid lg:overflow-visible">
-          {MENU.map((m) => (
-            <Link
-              key={m.href}
-              href={m.href}
-              className="flex shrink-0 items-center gap-3 rounded-surface px-4 py-3 text-sm font-medium whitespace-nowrap text-ink hover:bg-paper-soft"
-            >
-                {m.label}
-            </Link>
-          ))}
-          <Link
-            href="/"
-            target="_blank"
-            className="flex shrink-0 items-center gap-3 rounded-surface px-4 py-3 text-sm font-medium whitespace-nowrap text-sage-deep hover:bg-paper-soft"
-          >
-            საიტის ნახვა
-          </Link>
-        </nav>
-      </aside>
-
-      <div className="min-w-0 flex-1">
-        <div className="mx-auto max-w-4xl px-5 py-8 sm:px-8 sm:py-10">{children}</div>
-      </div>
-    </div>
-  );
+  return <AdminShell>{children}</AdminShell>;
 }

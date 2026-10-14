@@ -86,6 +86,17 @@ body {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 /*
   Never let content depend on scroll to be readable: the scroll-driven variant
   starts at 0.5 opacity, not 0, so a non-scrolled render (print, screenshot,

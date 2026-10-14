@@ -33,6 +33,7 @@ export const UI = {
     gallery: { ka: "გალერეა", en: "Gallery", ru: "Галерея" },
     articles: { ka: "სტატიები", en: "Articles", ru: "Статьи" },
     contact: { ka: "კონტაქტი", en: "Contact", ru: "Контакты" },
+    more: { ka: "სხვა", en: "More", ru: "Ещё" },
   },
   cta: {
     contactUs: { ka: "დაგვიკავშირდით", en: "Contact us", ru: "Свяжитесь с нами" },

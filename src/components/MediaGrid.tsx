@@ -85,7 +85,7 @@ export default function MediaGrid({
               <button
                 type="button"
                 onClick={() => setOpen(i)}
-                className="group block w-full text-left"
+                className="group relative block w-full text-left"
                 aria-label={title || t(UI.gallery.open, locale)}
               >
                 <span className="relative block aspect-4/3 overflow-hidden rounded-surface bg-paper-soft">

@@ -40,6 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# ატვირთული ფაილები და კონტენტი (ლოკალური)
-/public/uploads/*
-!/public/uploads/sample-*.svg
+# Existing preview media is committed so it is available on Vercel.
+# Admin uploads require persistent storage before they can be used on Vercel.
